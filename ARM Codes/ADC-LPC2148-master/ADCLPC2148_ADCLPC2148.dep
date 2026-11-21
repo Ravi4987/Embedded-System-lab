@@ -1,0 +1,7 @@
+Dependencies for Project 'ADCLPC2148', Target 'ADCLPC2148': (DO NOT MODIFY !)
+F (.\Startup.s)(0x57FFDDE0)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\main.c)(0x57FFDDE0)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (serial.h)(0x57FFDDE0)
+I (C:\Keil\ARM\RV31\INC\stdio.h)(0x4A02A792)
+F (.\serial.h)(0x57FFDDE0)()

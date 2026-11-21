@@ -1,0 +1,7 @@
+Dependencies for Project 'rfid', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x520A7E60)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\rfid.c)(0x593B9AAD)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "rfid.o" --omf_browse "rfid.crf" --depend "rfid.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x4A02A636)
+I (delay.h)(0x53EE8BBE)
+I (lcd.h)(0x54A3085A)
+I (uart0.h)(0x549EF73E)

@@ -1,0 +1,77 @@
+Dependencies for Project 'USBHID', Target 'FLASH': (DO NOT MODIFY !)
+F (..\common\src\startup_LPC17xx.s)(0x4D2486D4)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I..\common\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (..\common\src\system_LPC17xx.c)(0x4D2486D4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (..\common\inc\LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\core_cm3.h)(0x4D2486D4)
+I (..\common\inc\system_LPC17xx.h)(0x4D2486D4)
+F (..\timer\timer.c)(0x4D217132)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\timer.o --omf_browse .\flash\timer.crf --depend .\flash\timer.d)
+I (..\common\inc\lpc17xx.h)(0x4D2486D4)
+I (..\common\inc\core_cm3.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (..\common\inc\system_LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (..\timer\timer.h)(0x4D217132)
+F (.\usbhw.c)(0x4CF4F004)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\usbhw.o --omf_browse .\flash\usbhw.crf --depend .\flash\usbhw.d)
+I (..\common\inc\LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\core_cm3.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (..\common\inc\system_LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (usb.h)(0x4C74D5E0)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbreg.h)(0x4C74D5E4)
+I (usbhw.h)(0x4C74D5E4)
+I (usbcore.h)(0x4C74D5E2)
+I (usbuser.h)(0x4C74D5E4)
+F (.\usbuser.c)(0x4C74D5E2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\usbuser.o --omf_browse .\flash\usbuser.crf --depend .\flash\usbuser.d)
+I (..\common\inc\lpc17xx.h)(0x4D2486D4)
+I (..\common\inc\core_cm3.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (..\common\inc\system_LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (usb.h)(0x4C74D5E0)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbhw.h)(0x4C74D5E4)
+I (usbcore.h)(0x4C74D5E2)
+I (usbuser.h)(0x4C74D5E4)
+I (hiduser.h)(0x4C74D5E2)
+I (demo.h)(0x4C74D5E4)
+F (.\demo.c)(0x56696BC5)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\demo.o --omf_browse .\flash\demo.crf --depend .\flash\demo.d)
+I (..\common\inc\LPC17xx.H)(0x4D2486D4)
+I (..\common\inc\core_cm3.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (..\common\inc\system_LPC17xx.h)(0x4D2486D4)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (usb.h)(0x4C74D5E0)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbhw.h)(0x4C74D5E4)
+I (demo.h)(0x4C74D5E4)
+F (.\hiduser.c)(0x4C74D5E2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\hiduser.o --omf_browse .\flash\hiduser.crf --depend .\flash\hiduser.d)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (usb.h)(0x4C74D5E0)
+I (hid.h)(0x4C74D5E2)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbcore.h)(0x4C74D5E2)
+I (hiduser.h)(0x4C74D5E2)
+I (demo.h)(0x4C74D5E4)
+F (.\usbcore.c)(0x4C74D5E0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\usbcore.o --omf_browse .\flash\usbcore.crf --depend .\flash\usbcore.d)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (usb.h)(0x4C74D5E0)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbhw.h)(0x4C74D5E4)
+I (usbcore.h)(0x4C74D5E2)
+I (usbdesc.h)(0x4C74D5E4)
+I (usbuser.h)(0x4C74D5E4)
+I (hid.h)(0x4C74D5E2)
+I (hiduser.h)(0x4C74D5E2)
+F (.\usbdesc.c)(0x4C74D5E2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\common\inc -I..\timer-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP-o .\flash\usbdesc.o --omf_browse .\flash\usbdesc.crf --depend .\flash\usbdesc.d)
+I (..\common\inc\type.h)(0x4D2486D4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (usb.h)(0x4C74D5E0)
+I (hid.h)(0x4C74D5E2)
+I (usbcfg.h)(0x4C74D5E2)
+I (usbdesc.h)(0x4C74D5E4)
+F (.\Abstract.txt)(0x4C74D5E0)()

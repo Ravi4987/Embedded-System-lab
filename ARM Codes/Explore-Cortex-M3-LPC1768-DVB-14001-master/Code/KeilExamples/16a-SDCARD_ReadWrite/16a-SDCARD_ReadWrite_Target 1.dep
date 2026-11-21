@@ -1,0 +1,30 @@
+Dependencies for Project '16a-SDCARD_ReadWrite', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x59CC5330)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 518"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (..\00-libfiles\delay.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (..\00-libfiles\fat32.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\fat32.o --omf_browse .\fat32.crf --depend .\fat32.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569E0D62)
+I (..\00-libfiles\stdutils.h)(0x59CC5330)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (..\00-libfiles\fat32.h)(0x59CC5330)
+I (..\00-libfiles\uart.h)(0x59CC5330)
+F (..\00-libfiles\gpio.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+F (..\00-libfiles\sdcard.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\sdcard.o --omf_browse .\sdcard.crf --depend .\sdcard.d)
+I (..\00-libfiles\spi.h)(0x59CC5330)
+I (..\00-libfiles\stdutils.h)(0x59CC5330)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (..\00-libfiles\sdcard.h)(0x59CC5330)
+I (..\00-libfiles\uart.h)(0x59CC5330)
+F (..\00-libfiles\spi.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+F (..\00-libfiles\system_LPC17xx.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+F (..\00-libfiles\uart.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569E0D62)
+I (..\00-libfiles\uart.h)(0x59CC5330)
+F (.\main.c)(0x59CC5330)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="518"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (..\00-libfiles\delay.h)(0x59CC5330)()
+F (..\00-libfiles\fat32.h)(0x59CC5330)()
+F (..\00-libfiles\gpio.h)(0x59CC5330)()
+F (..\00-libfiles\sdcard.h)(0x59CC5330)()
+F (..\00-libfiles\spi.h)(0x59CC5330)()
+F (..\00-libfiles\stdutils.h)(0x59CC5330)()
+F (..\00-libfiles\uart.h)(0x59CC5330)()

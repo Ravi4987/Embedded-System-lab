@@ -1,0 +1,9 @@
+.\flash\hiduser.o: hiduser.c
+.\flash\hiduser.o: ..\common\inc\type.h
+.\flash\hiduser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\hiduser.o: usb.h
+.\flash\hiduser.o: hid.h
+.\flash\hiduser.o: usbcfg.h
+.\flash\hiduser.o: usbcore.h
+.\flash\hiduser.o: hiduser.h
+.\flash\hiduser.o: demo.h

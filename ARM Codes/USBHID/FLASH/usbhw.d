@@ -1,0 +1,12 @@
+.\flash\usbhw.o: usbhw.c
+.\flash\usbhw.o: ..\common\inc\LPC17xx.h
+.\flash\usbhw.o: ..\common\inc\core_cm3.h
+.\flash\usbhw.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\usbhw.o: ..\common\inc\system_LPC17xx.h
+.\flash\usbhw.o: ..\common\inc\type.h
+.\flash\usbhw.o: usb.h
+.\flash\usbhw.o: usbcfg.h
+.\flash\usbhw.o: usbreg.h
+.\flash\usbhw.o: usbhw.h
+.\flash\usbhw.o: usbcore.h
+.\flash\usbhw.o: usbuser.h

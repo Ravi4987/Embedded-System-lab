@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "spi_lpc2138.o" --omf_browse "spi_lpc2138.crf" --depend "spi_lpc2138.d" "SPI_LPC2138.c"

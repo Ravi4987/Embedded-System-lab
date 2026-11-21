@@ -1,0 +1,10 @@
+.\flash\demo.o: demo.c
+.\flash\demo.o: ..\common\inc\LPC17xx.H
+.\flash\demo.o: ..\common\inc\core_cm3.h
+.\flash\demo.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\demo.o: ..\common\inc\system_LPC17xx.h
+.\flash\demo.o: ..\common\inc\type.h
+.\flash\demo.o: usb.h
+.\flash\demo.o: usbcfg.h
+.\flash\demo.o: usbhw.h
+.\flash\demo.o: demo.h

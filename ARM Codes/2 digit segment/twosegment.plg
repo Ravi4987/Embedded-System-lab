@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+H:\Electronics\Codes\ARM Codes\2 digit segment\twosegment.uvproj
+Project File Date:  03/16/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=656 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"twosegment.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,26 @@
+*** Creating Trace Output File '16a-SDCARD_ReadWrite.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"fat32.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"sdcard.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--device DARMP1 "startup_lpc17xx.o" "delay.o" "fat32.o" "gpio.o" "sdcard.o" "spi.o" "system_lpc17xx.o" "uart.o" "main.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\16a-SDCARD_ReadWrite.map" -o "16a-SDCARD_ReadWrite.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '16a-SDCARD_ReadWrite.axf'
+### ADS-LD Command File: '16a-SDCARD_ReadWrite.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '16a-SDCARD_ReadWrite.lnp', Handle=0x0000049C
+### Writing '.lnp' file
+### ADS-LD Command file '16a-SDCARD_ReadWrite.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
